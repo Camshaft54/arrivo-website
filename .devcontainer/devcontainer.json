@@ -9,6 +9,6 @@
     "jetbrains" : {
       "backend" : "WebStorm"
     }
-  }
-
+  },
+  "forwardPorts": [4321]
 }
