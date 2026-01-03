@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+    /* Arrivo Brand Colors from Color.kt */
+    --color-primary: #66558F;
+    --color-on-primary: #FFFFFF;
+    --color-primary-container: #E9DDFF;
+    --color-background: #FEF7FF;
+    --color-on-background: #1D1B20;
+    --color-surface: #FEF7FF;
+    --color-on-surface: #1D1B20;
+
+    /* Status Colors */
+    --color-status-green: #34A853;
+    --color-status-red: #E53935;
+    --color-status-blue: #1E88E5;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    font-family: system-ui, -apple-system, sans-serif;
+}
